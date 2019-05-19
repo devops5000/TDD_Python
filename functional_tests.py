@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 # Functional tests
 from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.firefox.firefox_binary import FirefoxBinary
 import unittest
 
@@ -22,6 +23,23 @@ class NewVisitorsTest(unittest.TestCase):
 
 		# Tytul strony
 		self.assertIn('Listy', self.browser.title)
+		header_text = self.browser.find_element_by_tag_name('h1').text
+		self.assertIn('Listy', header_text)
+
+		inputbox = self.browser.find_element_by_id('id_new_item')
+		self.assertEqual(
+			inputbox.get_attribute('placeholder'),
+			'Wpisz rzecz do zrobienia'
+		)
+
+		inputbox.send_keys('Kupic pawie piora')
+		inputbox.send_keys(Keys.ENTER)
+
+		table = self.browser.find_element_by_id('id_list_table')
+		rows = table.find_elements_by_tag_name('tr')
+		self.assertTrue(
+			any(row.text == '1: Kupic pawie piora' for row in rows)
+		)
 		self.fail('Zakonczenie testu!')
 
 if __name__ == '__main__':
