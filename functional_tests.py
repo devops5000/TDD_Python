@@ -24,21 +24,21 @@ class NewVisitorsTest(unittest.TestCase):
 		# Tytul strony
 		self.assertIn('Listy', self.browser.title)
 		header_text = self.browser.find_element_by_tag_name('h1').text
-		self.assertIn('Listy', header_text)
+		self.assertIn('Twoja', header_text)
 
 		inputbox = self.browser.find_element_by_id('id_new_item')
 		self.assertEqual(
 			inputbox.get_attribute('placeholder'),
-			'Wpisz rzecz do zrobienia'
+			'Wpisz rzeczy do zrobienia'
 		)
-
 		inputbox.send_keys('Kupic pawie piora')
 		inputbox.send_keys(Keys.ENTER)
 
 		table = self.browser.find_element_by_id('id_list_table')
 		rows = table.find_elements_by_tag_name('tr')
 		self.assertTrue(
-			any(row.text == '1: Kupic pawie piora' for row in rows)
+			any(row.text == '1: Kupic pawie piora' for row in rows),
+			"Nowy element nie znajduje sie w tabeli."
 		)
 		self.fail('Zakonczenie testu!')
 

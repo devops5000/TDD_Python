@@ -846,3 +846,913 @@ JavaScript error: jar:file:///opt/firefox/firefox/browser/omni.ja!/components/ns
 1558266588597	Marionette	INFO	Listening on port 38991
 1558266588605	Marionette	WARN	TLS certificate errors will be ignored for this session
 1558266591780	Marionette	INFO	Stopped listening on port 38991
+1558270106302	mozrunner::runner	INFO	Running command: "/opt/firefox/firefox/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.tdVSepJXSJHp"
+1558270106428	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/formautofill@mozilla.org.xpi
+1558270106428	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/screenshots@mozilla.org.xpi
+1558270106429	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/webcompat-reporter@mozilla.org.xpi
+1558270106429	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/webcompat@mozilla.org.xpi
+1558270106453	addons.xpi-utils	WARN	addMetadata: Add-on formautofill@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: get :: line 194"  data: no] Stack trace: get()@resource://gre/modules/addons/XPIInstall.jsm:194
+loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:606
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:620
+addMetadata()@resource://gre/modules/addons/XPIDatabase.jsm:2340
+processFileChanges()@resource://gre/modules/addons/XPIDatabase.jsm:2700
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:2570
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2148
+callProvider()@resource://gre/modules/AddonManager.jsm:203
+_startProvider()@resource://gre/modules/AddonManager.jsm:652
+startup()@resource://gre/modules/AddonManager.jsm:805
+startup()@resource://gre/modules/AddonManager.jsm:2775
+observe()@jar:file:///opt/firefox/firefox/omni.ja!/components/addonManager.js:66
+1558270106454	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1558270106454	addons.xpi-utils	WARN	addMetadata: Add-on screenshots@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: get :: line 194"  data: no] Stack trace: get()@resource://gre/modules/addons/XPIInstall.jsm:194
+loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:606
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:620
+addMetadata()@resource://gre/modules/addons/XPIDatabase.jsm:2340
+processFileChanges()@resource://gre/modules/addons/XPIDatabase.jsm:2700
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:2570
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2148
+callProvider()@resource://gre/modules/AddonManager.jsm:203
+_startProvider()@resource://gre/modules/AddonManager.jsm:652
+startup()@resource://gre/modules/AddonManager.jsm:805
+startup()@resource://gre/modules/AddonManager.jsm:2775
+observe()@jar:file:///opt/firefox/firefox/omni.ja!/components/addonManager.js:66
+1558270106454	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1558270106454	addons.xpi-utils	WARN	addMetadata: Add-on webcompat-reporter@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: get :: line 194"  data: no] Stack trace: get()@resource://gre/modules/addons/XPIInstall.jsm:194
+loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:606
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:620
+addMetadata()@resource://gre/modules/addons/XPIDatabase.jsm:2340
+processFileChanges()@resource://gre/modules/addons/XPIDatabase.jsm:2700
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:2570
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2148
+callProvider()@resource://gre/modules/AddonManager.jsm:203
+_startProvider()@resource://gre/modules/AddonManager.jsm:652
+startup()@resource://gre/modules/AddonManager.jsm:805
+startup()@resource://gre/modules/AddonManager.jsm:2775
+observe()@jar:file:///opt/firefox/firefox/omni.ja!/components/addonManager.js:66
+1558270106454	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1558270106455	addons.xpi-utils	WARN	addMetadata: Add-on webcompat@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: get :: line 194"  data: no] Stack trace: get()@resource://gre/modules/addons/XPIInstall.jsm:194
+loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:606
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:620
+addMetadata()@resource://gre/modules/addons/XPIDatabase.jsm:2340
+processFileChanges()@resource://gre/modules/addons/XPIDatabase.jsm:2700
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:2570
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2148
+callProvider()@resource://gre/modules/AddonManager.jsm:203
+_startProvider()@resource://gre/modules/AddonManager.jsm:652
+startup()@resource://gre/modules/AddonManager.jsm:805
+startup()@resource://gre/modules/AddonManager.jsm:2775
+observe()@jar:file:///opt/firefox/firefox/omni.ja!/components/addonManager.js:66
+1558270106455	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1558270107047	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/formautofill@mozilla.org.xpi
+1558270107047	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/screenshots@mozilla.org.xpi
+1558270107047	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/webcompat-reporter@mozilla.org.xpi
+1558270107048	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/webcompat@mozilla.org.xpi
+JavaScript error: jar:file:///opt/firefox/firefox/browser/omni.ja!/components/nsBrowserGlue.js, line 1470: TypeError: addon is null
+1558270107173	Marionette	INFO	Listening on port 36203
+1558270107206	Marionette	WARN	TLS certificate errors will be ignored for this session
+1558270110374	Marionette	INFO	Stopped listening on port 36203
+1558270201797	mozrunner::runner	INFO	Running command: "/opt/firefox/firefox/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.BriNnWnFPME2"
+1558270201921	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/formautofill@mozilla.org.xpi
+1558270201922	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/screenshots@mozilla.org.xpi
+1558270201922	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/webcompat-reporter@mozilla.org.xpi
+1558270201923	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/webcompat@mozilla.org.xpi
+1558270201946	addons.xpi-utils	WARN	addMetadata: Add-on formautofill@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: get :: line 194"  data: no] Stack trace: get()@resource://gre/modules/addons/XPIInstall.jsm:194
+loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:606
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:620
+addMetadata()@resource://gre/modules/addons/XPIDatabase.jsm:2340
+processFileChanges()@resource://gre/modules/addons/XPIDatabase.jsm:2700
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:2570
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2148
+callProvider()@resource://gre/modules/AddonManager.jsm:203
+_startProvider()@resource://gre/modules/AddonManager.jsm:652
+startup()@resource://gre/modules/AddonManager.jsm:805
+startup()@resource://gre/modules/AddonManager.jsm:2775
+observe()@jar:file:///opt/firefox/firefox/omni.ja!/components/addonManager.js:66
+1558270201947	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1558270201947	addons.xpi-utils	WARN	addMetadata: Add-on screenshots@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: get :: line 194"  data: no] Stack trace: get()@resource://gre/modules/addons/XPIInstall.jsm:194
+loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:606
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:620
+addMetadata()@resource://gre/modules/addons/XPIDatabase.jsm:2340
+processFileChanges()@resource://gre/modules/addons/XPIDatabase.jsm:2700
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:2570
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2148
+callProvider()@resource://gre/modules/AddonManager.jsm:203
+_startProvider()@resource://gre/modules/AddonManager.jsm:652
+startup()@resource://gre/modules/AddonManager.jsm:805
+startup()@resource://gre/modules/AddonManager.jsm:2775
+observe()@jar:file:///opt/firefox/firefox/omni.ja!/components/addonManager.js:66
+1558270201948	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1558270201948	addons.xpi-utils	WARN	addMetadata: Add-on webcompat-reporter@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: get :: line 194"  data: no] Stack trace: get()@resource://gre/modules/addons/XPIInstall.jsm:194
+loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:606
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:620
+addMetadata()@resource://gre/modules/addons/XPIDatabase.jsm:2340
+processFileChanges()@resource://gre/modules/addons/XPIDatabase.jsm:2700
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:2570
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2148
+callProvider()@resource://gre/modules/AddonManager.jsm:203
+_startProvider()@resource://gre/modules/AddonManager.jsm:652
+startup()@resource://gre/modules/AddonManager.jsm:805
+startup()@resource://gre/modules/AddonManager.jsm:2775
+observe()@jar:file:///opt/firefox/firefox/omni.ja!/components/addonManager.js:66
+1558270201948	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1558270201948	addons.xpi-utils	WARN	addMetadata: Add-on webcompat@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: get :: line 194"  data: no] Stack trace: get()@resource://gre/modules/addons/XPIInstall.jsm:194
+loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:606
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:620
+addMetadata()@resource://gre/modules/addons/XPIDatabase.jsm:2340
+processFileChanges()@resource://gre/modules/addons/XPIDatabase.jsm:2700
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:2570
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2148
+callProvider()@resource://gre/modules/AddonManager.jsm:203
+_startProvider()@resource://gre/modules/AddonManager.jsm:652
+startup()@resource://gre/modules/AddonManager.jsm:805
+startup()@resource://gre/modules/AddonManager.jsm:2775
+observe()@jar:file:///opt/firefox/firefox/omni.ja!/components/addonManager.js:66
+1558270201949	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1558270202548	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/formautofill@mozilla.org.xpi
+1558270202548	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/screenshots@mozilla.org.xpi
+1558270202548	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/webcompat-reporter@mozilla.org.xpi
+1558270202548	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/webcompat@mozilla.org.xpi
+JavaScript error: jar:file:///opt/firefox/firefox/browser/omni.ja!/components/nsBrowserGlue.js, line 1470: TypeError: addon is null
+1558270202672	Marionette	INFO	Listening on port 39871
+1558270202701	Marionette	WARN	TLS certificate errors will be ignored for this session
+1558270202878	Marionette	INFO	Stopped listening on port 39871
+1558270304662	mozrunner::runner	INFO	Running command: "/opt/firefox/firefox/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.khTyiLxLjWzp"
+1558270304786	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/formautofill@mozilla.org.xpi
+1558270304787	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/screenshots@mozilla.org.xpi
+1558270304787	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/webcompat-reporter@mozilla.org.xpi
+1558270304787	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/webcompat@mozilla.org.xpi
+1558270304812	addons.xpi-utils	WARN	addMetadata: Add-on formautofill@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: get :: line 194"  data: no] Stack trace: get()@resource://gre/modules/addons/XPIInstall.jsm:194
+loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:606
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:620
+addMetadata()@resource://gre/modules/addons/XPIDatabase.jsm:2340
+processFileChanges()@resource://gre/modules/addons/XPIDatabase.jsm:2700
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:2570
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2148
+callProvider()@resource://gre/modules/AddonManager.jsm:203
+_startProvider()@resource://gre/modules/AddonManager.jsm:652
+startup()@resource://gre/modules/AddonManager.jsm:805
+startup()@resource://gre/modules/AddonManager.jsm:2775
+observe()@jar:file:///opt/firefox/firefox/omni.ja!/components/addonManager.js:66
+1558270304813	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1558270304813	addons.xpi-utils	WARN	addMetadata: Add-on screenshots@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: get :: line 194"  data: no] Stack trace: get()@resource://gre/modules/addons/XPIInstall.jsm:194
+loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:606
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:620
+addMetadata()@resource://gre/modules/addons/XPIDatabase.jsm:2340
+processFileChanges()@resource://gre/modules/addons/XPIDatabase.jsm:2700
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:2570
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2148
+callProvider()@resource://gre/modules/AddonManager.jsm:203
+_startProvider()@resource://gre/modules/AddonManager.jsm:652
+startup()@resource://gre/modules/AddonManager.jsm:805
+startup()@resource://gre/modules/AddonManager.jsm:2775
+observe()@jar:file:///opt/firefox/firefox/omni.ja!/components/addonManager.js:66
+1558270304813	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1558270304813	addons.xpi-utils	WARN	addMetadata: Add-on webcompat-reporter@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: get :: line 194"  data: no] Stack trace: get()@resource://gre/modules/addons/XPIInstall.jsm:194
+loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:606
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:620
+addMetadata()@resource://gre/modules/addons/XPIDatabase.jsm:2340
+processFileChanges()@resource://gre/modules/addons/XPIDatabase.jsm:2700
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:2570
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2148
+callProvider()@resource://gre/modules/AddonManager.jsm:203
+_startProvider()@resource://gre/modules/AddonManager.jsm:652
+startup()@resource://gre/modules/AddonManager.jsm:805
+startup()@resource://gre/modules/AddonManager.jsm:2775
+observe()@jar:file:///opt/firefox/firefox/omni.ja!/components/addonManager.js:66
+1558270304814	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1558270304814	addons.xpi-utils	WARN	addMetadata: Add-on webcompat@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: get :: line 194"  data: no] Stack trace: get()@resource://gre/modules/addons/XPIInstall.jsm:194
+loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:606
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:620
+addMetadata()@resource://gre/modules/addons/XPIDatabase.jsm:2340
+processFileChanges()@resource://gre/modules/addons/XPIDatabase.jsm:2700
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:2570
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2148
+callProvider()@resource://gre/modules/AddonManager.jsm:203
+_startProvider()@resource://gre/modules/AddonManager.jsm:652
+startup()@resource://gre/modules/AddonManager.jsm:805
+startup()@resource://gre/modules/AddonManager.jsm:2775
+observe()@jar:file:///opt/firefox/firefox/omni.ja!/components/addonManager.js:66
+1558270304814	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1558270305472	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/formautofill@mozilla.org.xpi
+1558270305472	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/screenshots@mozilla.org.xpi
+1558270305473	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/webcompat-reporter@mozilla.org.xpi
+1558270305473	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/webcompat@mozilla.org.xpi
+JavaScript error: jar:file:///opt/firefox/firefox/browser/omni.ja!/components/nsBrowserGlue.js, line 1470: TypeError: addon is null
+1558270305577	Marionette	INFO	Listening on port 32973
+1558270305671	Marionette	WARN	TLS certificate errors will be ignored for this session
+1558270305823	Marionette	INFO	Stopped listening on port 32973
+1558270618998	mozrunner::runner	INFO	Running command: "/opt/firefox/firefox/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.WKI6rc8FZPw1"
+1558270619125	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/formautofill@mozilla.org.xpi
+1558270619126	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/screenshots@mozilla.org.xpi
+1558270619126	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/webcompat-reporter@mozilla.org.xpi
+1558270619126	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/webcompat@mozilla.org.xpi
+1558270619152	addons.xpi-utils	WARN	addMetadata: Add-on formautofill@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: get :: line 194"  data: no] Stack trace: get()@resource://gre/modules/addons/XPIInstall.jsm:194
+loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:606
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:620
+addMetadata()@resource://gre/modules/addons/XPIDatabase.jsm:2340
+processFileChanges()@resource://gre/modules/addons/XPIDatabase.jsm:2700
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:2570
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2148
+callProvider()@resource://gre/modules/AddonManager.jsm:203
+_startProvider()@resource://gre/modules/AddonManager.jsm:652
+startup()@resource://gre/modules/AddonManager.jsm:805
+startup()@resource://gre/modules/AddonManager.jsm:2775
+observe()@jar:file:///opt/firefox/firefox/omni.ja!/components/addonManager.js:66
+1558270619153	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1558270619153	addons.xpi-utils	WARN	addMetadata: Add-on screenshots@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: get :: line 194"  data: no] Stack trace: get()@resource://gre/modules/addons/XPIInstall.jsm:194
+loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:606
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:620
+addMetadata()@resource://gre/modules/addons/XPIDatabase.jsm:2340
+processFileChanges()@resource://gre/modules/addons/XPIDatabase.jsm:2700
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:2570
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2148
+callProvider()@resource://gre/modules/AddonManager.jsm:203
+_startProvider()@resource://gre/modules/AddonManager.jsm:652
+startup()@resource://gre/modules/AddonManager.jsm:805
+startup()@resource://gre/modules/AddonManager.jsm:2775
+observe()@jar:file:///opt/firefox/firefox/omni.ja!/components/addonManager.js:66
+1558270619153	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1558270619154	addons.xpi-utils	WARN	addMetadata: Add-on webcompat-reporter@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: get :: line 194"  data: no] Stack trace: get()@resource://gre/modules/addons/XPIInstall.jsm:194
+loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:606
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:620
+addMetadata()@resource://gre/modules/addons/XPIDatabase.jsm:2340
+processFileChanges()@resource://gre/modules/addons/XPIDatabase.jsm:2700
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:2570
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2148
+callProvider()@resource://gre/modules/AddonManager.jsm:203
+_startProvider()@resource://gre/modules/AddonManager.jsm:652
+startup()@resource://gre/modules/AddonManager.jsm:805
+startup()@resource://gre/modules/AddonManager.jsm:2775
+observe()@jar:file:///opt/firefox/firefox/omni.ja!/components/addonManager.js:66
+1558270619154	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1558270619154	addons.xpi-utils	WARN	addMetadata: Add-on webcompat@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: get :: line 194"  data: no] Stack trace: get()@resource://gre/modules/addons/XPIInstall.jsm:194
+loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:606
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:620
+addMetadata()@resource://gre/modules/addons/XPIDatabase.jsm:2340
+processFileChanges()@resource://gre/modules/addons/XPIDatabase.jsm:2700
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:2570
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2148
+callProvider()@resource://gre/modules/AddonManager.jsm:203
+_startProvider()@resource://gre/modules/AddonManager.jsm:652
+startup()@resource://gre/modules/AddonManager.jsm:805
+startup()@resource://gre/modules/AddonManager.jsm:2775
+observe()@jar:file:///opt/firefox/firefox/omni.ja!/components/addonManager.js:66
+1558270619154	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1558270619751	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/formautofill@mozilla.org.xpi
+1558270619751	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/screenshots@mozilla.org.xpi
+1558270619751	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/webcompat-reporter@mozilla.org.xpi
+1558270619751	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/webcompat@mozilla.org.xpi
+JavaScript error: jar:file:///opt/firefox/firefox/browser/omni.ja!/components/nsBrowserGlue.js, line 1470: TypeError: addon is null
+1558270619866	Marionette	INFO	Listening on port 36013
+1558270619904	Marionette	WARN	TLS certificate errors will be ignored for this session
+1558270620091	Marionette	INFO	Stopped listening on port 36013
+1558270777988	mozrunner::runner	INFO	Running command: "/opt/firefox/firefox/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.j4PKhOVMCY3W"
+1558270778116	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/formautofill@mozilla.org.xpi
+1558270778116	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/screenshots@mozilla.org.xpi
+1558270778117	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/webcompat-reporter@mozilla.org.xpi
+1558270778117	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/webcompat@mozilla.org.xpi
+1558270778141	addons.xpi-utils	WARN	addMetadata: Add-on formautofill@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: get :: line 194"  data: no] Stack trace: get()@resource://gre/modules/addons/XPIInstall.jsm:194
+loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:606
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:620
+addMetadata()@resource://gre/modules/addons/XPIDatabase.jsm:2340
+processFileChanges()@resource://gre/modules/addons/XPIDatabase.jsm:2700
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:2570
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2148
+callProvider()@resource://gre/modules/AddonManager.jsm:203
+_startProvider()@resource://gre/modules/AddonManager.jsm:652
+startup()@resource://gre/modules/AddonManager.jsm:805
+startup()@resource://gre/modules/AddonManager.jsm:2775
+observe()@jar:file:///opt/firefox/firefox/omni.ja!/components/addonManager.js:66
+1558270778141	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1558270778142	addons.xpi-utils	WARN	addMetadata: Add-on screenshots@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: get :: line 194"  data: no] Stack trace: get()@resource://gre/modules/addons/XPIInstall.jsm:194
+loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:606
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:620
+addMetadata()@resource://gre/modules/addons/XPIDatabase.jsm:2340
+processFileChanges()@resource://gre/modules/addons/XPIDatabase.jsm:2700
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:2570
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2148
+callProvider()@resource://gre/modules/AddonManager.jsm:203
+_startProvider()@resource://gre/modules/AddonManager.jsm:652
+startup()@resource://gre/modules/AddonManager.jsm:805
+startup()@resource://gre/modules/AddonManager.jsm:2775
+observe()@jar:file:///opt/firefox/firefox/omni.ja!/components/addonManager.js:66
+1558270778142	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1558270778142	addons.xpi-utils	WARN	addMetadata: Add-on webcompat-reporter@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: get :: line 194"  data: no] Stack trace: get()@resource://gre/modules/addons/XPIInstall.jsm:194
+loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:606
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:620
+addMetadata()@resource://gre/modules/addons/XPIDatabase.jsm:2340
+processFileChanges()@resource://gre/modules/addons/XPIDatabase.jsm:2700
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:2570
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2148
+callProvider()@resource://gre/modules/AddonManager.jsm:203
+_startProvider()@resource://gre/modules/AddonManager.jsm:652
+startup()@resource://gre/modules/AddonManager.jsm:805
+startup()@resource://gre/modules/AddonManager.jsm:2775
+observe()@jar:file:///opt/firefox/firefox/omni.ja!/components/addonManager.js:66
+1558270778142	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1558270778142	addons.xpi-utils	WARN	addMetadata: Add-on webcompat@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: get :: line 194"  data: no] Stack trace: get()@resource://gre/modules/addons/XPIInstall.jsm:194
+loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:606
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:620
+addMetadata()@resource://gre/modules/addons/XPIDatabase.jsm:2340
+processFileChanges()@resource://gre/modules/addons/XPIDatabase.jsm:2700
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:2570
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2148
+callProvider()@resource://gre/modules/AddonManager.jsm:203
+_startProvider()@resource://gre/modules/AddonManager.jsm:652
+startup()@resource://gre/modules/AddonManager.jsm:805
+startup()@resource://gre/modules/AddonManager.jsm:2775
+observe()@jar:file:///opt/firefox/firefox/omni.ja!/components/addonManager.js:66
+1558270778143	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1558270778745	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/formautofill@mozilla.org.xpi
+1558270778745	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/screenshots@mozilla.org.xpi
+1558270778745	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/webcompat-reporter@mozilla.org.xpi
+1558270778745	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/webcompat@mozilla.org.xpi
+JavaScript error: jar:file:///opt/firefox/firefox/browser/omni.ja!/components/nsBrowserGlue.js, line 1470: TypeError: addon is null
+1558270778874	Marionette	INFO	Listening on port 34169
+1558270778897	Marionette	WARN	TLS certificate errors will be ignored for this session
+1558270779070	Marionette	INFO	Stopped listening on port 34169
+1558270949746	mozrunner::runner	INFO	Running command: "/opt/firefox/firefox/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.w6U0UddbUXgV"
+1558270949873	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/formautofill@mozilla.org.xpi
+1558270949874	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/screenshots@mozilla.org.xpi
+1558270949874	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/webcompat-reporter@mozilla.org.xpi
+1558270949875	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/webcompat@mozilla.org.xpi
+1558270949904	addons.xpi-utils	WARN	addMetadata: Add-on formautofill@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: get :: line 194"  data: no] Stack trace: get()@resource://gre/modules/addons/XPIInstall.jsm:194
+loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:606
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:620
+addMetadata()@resource://gre/modules/addons/XPIDatabase.jsm:2340
+processFileChanges()@resource://gre/modules/addons/XPIDatabase.jsm:2700
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:2570
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2148
+callProvider()@resource://gre/modules/AddonManager.jsm:203
+_startProvider()@resource://gre/modules/AddonManager.jsm:652
+startup()@resource://gre/modules/AddonManager.jsm:805
+startup()@resource://gre/modules/AddonManager.jsm:2775
+observe()@jar:file:///opt/firefox/firefox/omni.ja!/components/addonManager.js:66
+1558270949904	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1558270949905	addons.xpi-utils	WARN	addMetadata: Add-on screenshots@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: get :: line 194"  data: no] Stack trace: get()@resource://gre/modules/addons/XPIInstall.jsm:194
+loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:606
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:620
+addMetadata()@resource://gre/modules/addons/XPIDatabase.jsm:2340
+processFileChanges()@resource://gre/modules/addons/XPIDatabase.jsm:2700
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:2570
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2148
+callProvider()@resource://gre/modules/AddonManager.jsm:203
+_startProvider()@resource://gre/modules/AddonManager.jsm:652
+startup()@resource://gre/modules/AddonManager.jsm:805
+startup()@resource://gre/modules/AddonManager.jsm:2775
+observe()@jar:file:///opt/firefox/firefox/omni.ja!/components/addonManager.js:66
+1558270949905	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1558270949905	addons.xpi-utils	WARN	addMetadata: Add-on webcompat-reporter@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: get :: line 194"  data: no] Stack trace: get()@resource://gre/modules/addons/XPIInstall.jsm:194
+loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:606
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:620
+addMetadata()@resource://gre/modules/addons/XPIDatabase.jsm:2340
+processFileChanges()@resource://gre/modules/addons/XPIDatabase.jsm:2700
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:2570
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2148
+callProvider()@resource://gre/modules/AddonManager.jsm:203
+_startProvider()@resource://gre/modules/AddonManager.jsm:652
+startup()@resource://gre/modules/AddonManager.jsm:805
+startup()@resource://gre/modules/AddonManager.jsm:2775
+observe()@jar:file:///opt/firefox/firefox/omni.ja!/components/addonManager.js:66
+1558270949905	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1558270949906	addons.xpi-utils	WARN	addMetadata: Add-on webcompat@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: get :: line 194"  data: no] Stack trace: get()@resource://gre/modules/addons/XPIInstall.jsm:194
+loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:606
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:620
+addMetadata()@resource://gre/modules/addons/XPIDatabase.jsm:2340
+processFileChanges()@resource://gre/modules/addons/XPIDatabase.jsm:2700
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:2570
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2148
+callProvider()@resource://gre/modules/AddonManager.jsm:203
+_startProvider()@resource://gre/modules/AddonManager.jsm:652
+startup()@resource://gre/modules/AddonManager.jsm:805
+startup()@resource://gre/modules/AddonManager.jsm:2775
+observe()@jar:file:///opt/firefox/firefox/omni.ja!/components/addonManager.js:66
+1558270949906	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1558270950501	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/formautofill@mozilla.org.xpi
+1558270950501	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/screenshots@mozilla.org.xpi
+1558270950501	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/webcompat-reporter@mozilla.org.xpi
+1558270950501	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/webcompat@mozilla.org.xpi
+JavaScript error: jar:file:///opt/firefox/firefox/browser/omni.ja!/components/nsBrowserGlue.js, line 1470: TypeError: addon is null
+1558270950611	Marionette	INFO	Listening on port 35745
+1558270950650	Marionette	WARN	TLS certificate errors will be ignored for this session
+1558270950830	Marionette	INFO	Stopped listening on port 35745
+1558270996584	mozrunner::runner	INFO	Running command: "/opt/firefox/firefox/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.yVikjQaYCRru"
+1558270996711	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/formautofill@mozilla.org.xpi
+1558270996712	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/screenshots@mozilla.org.xpi
+1558270996712	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/webcompat-reporter@mozilla.org.xpi
+1558270996712	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/webcompat@mozilla.org.xpi
+1558270996737	addons.xpi-utils	WARN	addMetadata: Add-on formautofill@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: get :: line 194"  data: no] Stack trace: get()@resource://gre/modules/addons/XPIInstall.jsm:194
+loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:606
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:620
+addMetadata()@resource://gre/modules/addons/XPIDatabase.jsm:2340
+processFileChanges()@resource://gre/modules/addons/XPIDatabase.jsm:2700
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:2570
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2148
+callProvider()@resource://gre/modules/AddonManager.jsm:203
+_startProvider()@resource://gre/modules/AddonManager.jsm:652
+startup()@resource://gre/modules/AddonManager.jsm:805
+startup()@resource://gre/modules/AddonManager.jsm:2775
+observe()@jar:file:///opt/firefox/firefox/omni.ja!/components/addonManager.js:66
+1558270996738	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1558270996738	addons.xpi-utils	WARN	addMetadata: Add-on screenshots@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: get :: line 194"  data: no] Stack trace: get()@resource://gre/modules/addons/XPIInstall.jsm:194
+loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:606
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:620
+addMetadata()@resource://gre/modules/addons/XPIDatabase.jsm:2340
+processFileChanges()@resource://gre/modules/addons/XPIDatabase.jsm:2700
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:2570
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2148
+callProvider()@resource://gre/modules/AddonManager.jsm:203
+_startProvider()@resource://gre/modules/AddonManager.jsm:652
+startup()@resource://gre/modules/AddonManager.jsm:805
+startup()@resource://gre/modules/AddonManager.jsm:2775
+observe()@jar:file:///opt/firefox/firefox/omni.ja!/components/addonManager.js:66
+1558270996739	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1558270996739	addons.xpi-utils	WARN	addMetadata: Add-on webcompat-reporter@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: get :: line 194"  data: no] Stack trace: get()@resource://gre/modules/addons/XPIInstall.jsm:194
+loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:606
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:620
+addMetadata()@resource://gre/modules/addons/XPIDatabase.jsm:2340
+processFileChanges()@resource://gre/modules/addons/XPIDatabase.jsm:2700
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:2570
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2148
+callProvider()@resource://gre/modules/AddonManager.jsm:203
+_startProvider()@resource://gre/modules/AddonManager.jsm:652
+startup()@resource://gre/modules/AddonManager.jsm:805
+startup()@resource://gre/modules/AddonManager.jsm:2775
+observe()@jar:file:///opt/firefox/firefox/omni.ja!/components/addonManager.js:66
+1558270996739	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1558270996739	addons.xpi-utils	WARN	addMetadata: Add-on webcompat@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: get :: line 194"  data: no] Stack trace: get()@resource://gre/modules/addons/XPIInstall.jsm:194
+loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:606
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:620
+addMetadata()@resource://gre/modules/addons/XPIDatabase.jsm:2340
+processFileChanges()@resource://gre/modules/addons/XPIDatabase.jsm:2700
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:2570
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2148
+callProvider()@resource://gre/modules/AddonManager.jsm:203
+_startProvider()@resource://gre/modules/AddonManager.jsm:652
+startup()@resource://gre/modules/AddonManager.jsm:805
+startup()@resource://gre/modules/AddonManager.jsm:2775
+observe()@jar:file:///opt/firefox/firefox/omni.ja!/components/addonManager.js:66
+1558270996739	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1558270997324	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/formautofill@mozilla.org.xpi
+1558270997324	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/screenshots@mozilla.org.xpi
+1558270997324	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/webcompat-reporter@mozilla.org.xpi
+1558270997324	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/webcompat@mozilla.org.xpi
+JavaScript error: jar:file:///opt/firefox/firefox/browser/omni.ja!/components/nsBrowserGlue.js, line 1470: TypeError: addon is null
+1558270997441	Marionette	INFO	Listening on port 37005
+1558270997497	Marionette	WARN	TLS certificate errors will be ignored for this session
+1558270997666	Marionette	INFO	Stopped listening on port 37005
+1558271088774	mozrunner::runner	INFO	Running command: "/opt/firefox/firefox/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.vFh7uJc8RrCM"
+1558271088898	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/formautofill@mozilla.org.xpi
+1558271088899	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/screenshots@mozilla.org.xpi
+1558271088899	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/webcompat-reporter@mozilla.org.xpi
+1558271088899	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/webcompat@mozilla.org.xpi
+1558271088924	addons.xpi-utils	WARN	addMetadata: Add-on formautofill@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: get :: line 194"  data: no] Stack trace: get()@resource://gre/modules/addons/XPIInstall.jsm:194
+loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:606
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:620
+addMetadata()@resource://gre/modules/addons/XPIDatabase.jsm:2340
+processFileChanges()@resource://gre/modules/addons/XPIDatabase.jsm:2700
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:2570
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2148
+callProvider()@resource://gre/modules/AddonManager.jsm:203
+_startProvider()@resource://gre/modules/AddonManager.jsm:652
+startup()@resource://gre/modules/AddonManager.jsm:805
+startup()@resource://gre/modules/AddonManager.jsm:2775
+observe()@jar:file:///opt/firefox/firefox/omni.ja!/components/addonManager.js:66
+1558271088925	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1558271088925	addons.xpi-utils	WARN	addMetadata: Add-on screenshots@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: get :: line 194"  data: no] Stack trace: get()@resource://gre/modules/addons/XPIInstall.jsm:194
+loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:606
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:620
+addMetadata()@resource://gre/modules/addons/XPIDatabase.jsm:2340
+processFileChanges()@resource://gre/modules/addons/XPIDatabase.jsm:2700
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:2570
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2148
+callProvider()@resource://gre/modules/AddonManager.jsm:203
+_startProvider()@resource://gre/modules/AddonManager.jsm:652
+startup()@resource://gre/modules/AddonManager.jsm:805
+startup()@resource://gre/modules/AddonManager.jsm:2775
+observe()@jar:file:///opt/firefox/firefox/omni.ja!/components/addonManager.js:66
+1558271088926	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1558271088926	addons.xpi-utils	WARN	addMetadata: Add-on webcompat-reporter@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: get :: line 194"  data: no] Stack trace: get()@resource://gre/modules/addons/XPIInstall.jsm:194
+loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:606
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:620
+addMetadata()@resource://gre/modules/addons/XPIDatabase.jsm:2340
+processFileChanges()@resource://gre/modules/addons/XPIDatabase.jsm:2700
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:2570
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2148
+callProvider()@resource://gre/modules/AddonManager.jsm:203
+_startProvider()@resource://gre/modules/AddonManager.jsm:652
+startup()@resource://gre/modules/AddonManager.jsm:805
+startup()@resource://gre/modules/AddonManager.jsm:2775
+observe()@jar:file:///opt/firefox/firefox/omni.ja!/components/addonManager.js:66
+1558271088926	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1558271088926	addons.xpi-utils	WARN	addMetadata: Add-on webcompat@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: get :: line 194"  data: no] Stack trace: get()@resource://gre/modules/addons/XPIInstall.jsm:194
+loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:606
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:620
+addMetadata()@resource://gre/modules/addons/XPIDatabase.jsm:2340
+processFileChanges()@resource://gre/modules/addons/XPIDatabase.jsm:2700
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:2570
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2148
+callProvider()@resource://gre/modules/AddonManager.jsm:203
+_startProvider()@resource://gre/modules/AddonManager.jsm:652
+startup()@resource://gre/modules/AddonManager.jsm:805
+startup()@resource://gre/modules/AddonManager.jsm:2775
+observe()@jar:file:///opt/firefox/firefox/omni.ja!/components/addonManager.js:66
+1558271088927	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1558271089517	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/formautofill@mozilla.org.xpi
+1558271089517	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/screenshots@mozilla.org.xpi
+1558271089517	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/webcompat-reporter@mozilla.org.xpi
+1558271089517	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/webcompat@mozilla.org.xpi
+JavaScript error: jar:file:///opt/firefox/firefox/browser/omni.ja!/components/nsBrowserGlue.js, line 1470: TypeError: addon is null
+1558271089634	Marionette	INFO	Listening on port 46071
+1558271089690	Marionette	WARN	TLS certificate errors will be ignored for this session
+1558271089866	Marionette	INFO	Stopped listening on port 46071
+1558271138712	mozrunner::runner	INFO	Running command: "/opt/firefox/firefox/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.c3q1aKfGNoGi"
+1558271138839	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/formautofill@mozilla.org.xpi
+1558271138840	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/screenshots@mozilla.org.xpi
+1558271138840	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/webcompat-reporter@mozilla.org.xpi
+1558271138840	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/webcompat@mozilla.org.xpi
+1558271138865	addons.xpi-utils	WARN	addMetadata: Add-on formautofill@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: get :: line 194"  data: no] Stack trace: get()@resource://gre/modules/addons/XPIInstall.jsm:194
+loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:606
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:620
+addMetadata()@resource://gre/modules/addons/XPIDatabase.jsm:2340
+processFileChanges()@resource://gre/modules/addons/XPIDatabase.jsm:2700
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:2570
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2148
+callProvider()@resource://gre/modules/AddonManager.jsm:203
+_startProvider()@resource://gre/modules/AddonManager.jsm:652
+startup()@resource://gre/modules/AddonManager.jsm:805
+startup()@resource://gre/modules/AddonManager.jsm:2775
+observe()@jar:file:///opt/firefox/firefox/omni.ja!/components/addonManager.js:66
+1558271138866	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1558271138866	addons.xpi-utils	WARN	addMetadata: Add-on screenshots@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: get :: line 194"  data: no] Stack trace: get()@resource://gre/modules/addons/XPIInstall.jsm:194
+loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:606
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:620
+addMetadata()@resource://gre/modules/addons/XPIDatabase.jsm:2340
+processFileChanges()@resource://gre/modules/addons/XPIDatabase.jsm:2700
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:2570
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2148
+callProvider()@resource://gre/modules/AddonManager.jsm:203
+_startProvider()@resource://gre/modules/AddonManager.jsm:652
+startup()@resource://gre/modules/AddonManager.jsm:805
+startup()@resource://gre/modules/AddonManager.jsm:2775
+observe()@jar:file:///opt/firefox/firefox/omni.ja!/components/addonManager.js:66
+1558271138866	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1558271138866	addons.xpi-utils	WARN	addMetadata: Add-on webcompat-reporter@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: get :: line 194"  data: no] Stack trace: get()@resource://gre/modules/addons/XPIInstall.jsm:194
+loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:606
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:620
+addMetadata()@resource://gre/modules/addons/XPIDatabase.jsm:2340
+processFileChanges()@resource://gre/modules/addons/XPIDatabase.jsm:2700
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:2570
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2148
+callProvider()@resource://gre/modules/AddonManager.jsm:203
+_startProvider()@resource://gre/modules/AddonManager.jsm:652
+startup()@resource://gre/modules/AddonManager.jsm:805
+startup()@resource://gre/modules/AddonManager.jsm:2775
+observe()@jar:file:///opt/firefox/firefox/omni.ja!/components/addonManager.js:66
+1558271138867	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1558271138867	addons.xpi-utils	WARN	addMetadata: Add-on webcompat@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: get :: line 194"  data: no] Stack trace: get()@resource://gre/modules/addons/XPIInstall.jsm:194
+loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:606
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:620
+addMetadata()@resource://gre/modules/addons/XPIDatabase.jsm:2340
+processFileChanges()@resource://gre/modules/addons/XPIDatabase.jsm:2700
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:2570
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2148
+callProvider()@resource://gre/modules/AddonManager.jsm:203
+_startProvider()@resource://gre/modules/AddonManager.jsm:652
+startup()@resource://gre/modules/AddonManager.jsm:805
+startup()@resource://gre/modules/AddonManager.jsm:2775
+observe()@jar:file:///opt/firefox/firefox/omni.ja!/components/addonManager.js:66
+1558271138867	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1558271139464	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/formautofill@mozilla.org.xpi
+1558271139464	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/screenshots@mozilla.org.xpi
+1558271139464	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/webcompat-reporter@mozilla.org.xpi
+1558271139465	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/webcompat@mozilla.org.xpi
+JavaScript error: jar:file:///opt/firefox/firefox/browser/omni.ja!/components/nsBrowserGlue.js, line 1470: TypeError: addon is null
+1558271139576	Marionette	INFO	Listening on port 35021
+1558271139629	Marionette	WARN	TLS certificate errors will be ignored for this session
+1558271139815	Marionette	INFO	Stopped listening on port 35021
+1558271435393	mozrunner::runner	INFO	Running command: "/opt/firefox/firefox/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.HABxbu4X3yeo"
+1558271435518	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/formautofill@mozilla.org.xpi
+1558271435518	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/screenshots@mozilla.org.xpi
+1558271435519	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/webcompat-reporter@mozilla.org.xpi
+1558271435519	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/webcompat@mozilla.org.xpi
+1558271435544	addons.xpi-utils	WARN	addMetadata: Add-on formautofill@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: get :: line 194"  data: no] Stack trace: get()@resource://gre/modules/addons/XPIInstall.jsm:194
+loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:606
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:620
+addMetadata()@resource://gre/modules/addons/XPIDatabase.jsm:2340
+processFileChanges()@resource://gre/modules/addons/XPIDatabase.jsm:2700
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:2570
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2148
+callProvider()@resource://gre/modules/AddonManager.jsm:203
+_startProvider()@resource://gre/modules/AddonManager.jsm:652
+startup()@resource://gre/modules/AddonManager.jsm:805
+startup()@resource://gre/modules/AddonManager.jsm:2775
+observe()@jar:file:///opt/firefox/firefox/omni.ja!/components/addonManager.js:66
+1558271435545	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1558271435545	addons.xpi-utils	WARN	addMetadata: Add-on screenshots@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: get :: line 194"  data: no] Stack trace: get()@resource://gre/modules/addons/XPIInstall.jsm:194
+loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:606
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:620
+addMetadata()@resource://gre/modules/addons/XPIDatabase.jsm:2340
+processFileChanges()@resource://gre/modules/addons/XPIDatabase.jsm:2700
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:2570
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2148
+callProvider()@resource://gre/modules/AddonManager.jsm:203
+_startProvider()@resource://gre/modules/AddonManager.jsm:652
+startup()@resource://gre/modules/AddonManager.jsm:805
+startup()@resource://gre/modules/AddonManager.jsm:2775
+observe()@jar:file:///opt/firefox/firefox/omni.ja!/components/addonManager.js:66
+1558271435545	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1558271435546	addons.xpi-utils	WARN	addMetadata: Add-on webcompat-reporter@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: get :: line 194"  data: no] Stack trace: get()@resource://gre/modules/addons/XPIInstall.jsm:194
+loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:606
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:620
+addMetadata()@resource://gre/modules/addons/XPIDatabase.jsm:2340
+processFileChanges()@resource://gre/modules/addons/XPIDatabase.jsm:2700
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:2570
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2148
+callProvider()@resource://gre/modules/AddonManager.jsm:203
+_startProvider()@resource://gre/modules/AddonManager.jsm:652
+startup()@resource://gre/modules/AddonManager.jsm:805
+startup()@resource://gre/modules/AddonManager.jsm:2775
+observe()@jar:file:///opt/firefox/firefox/omni.ja!/components/addonManager.js:66
+1558271435546	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1558271435546	addons.xpi-utils	WARN	addMetadata: Add-on webcompat@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: get :: line 194"  data: no] Stack trace: get()@resource://gre/modules/addons/XPIInstall.jsm:194
+loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:606
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:620
+addMetadata()@resource://gre/modules/addons/XPIDatabase.jsm:2340
+processFileChanges()@resource://gre/modules/addons/XPIDatabase.jsm:2700
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:2570
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2148
+callProvider()@resource://gre/modules/AddonManager.jsm:203
+_startProvider()@resource://gre/modules/AddonManager.jsm:652
+startup()@resource://gre/modules/AddonManager.jsm:805
+startup()@resource://gre/modules/AddonManager.jsm:2775
+observe()@jar:file:///opt/firefox/firefox/omni.ja!/components/addonManager.js:66
+1558271435546	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1558271436150	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/formautofill@mozilla.org.xpi
+1558271436150	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/screenshots@mozilla.org.xpi
+1558271436151	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/webcompat-reporter@mozilla.org.xpi
+1558271436151	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/webcompat@mozilla.org.xpi
+JavaScript error: jar:file:///opt/firefox/firefox/browser/omni.ja!/components/nsBrowserGlue.js, line 1470: TypeError: addon is null
+1558271436275	Marionette	INFO	Listening on port 39749
+1558271436305	Marionette	WARN	TLS certificate errors will be ignored for this session
+1558271436495	Marionette	INFO	Stopped listening on port 39749
+1558271744245	mozrunner::runner	INFO	Running command: "/opt/firefox/firefox/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.6KqVKm6xiMPu"
+1558271744369	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/formautofill@mozilla.org.xpi
+1558271744370	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/screenshots@mozilla.org.xpi
+1558271744370	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/webcompat-reporter@mozilla.org.xpi
+1558271744370	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/webcompat@mozilla.org.xpi
+1558271744394	addons.xpi-utils	WARN	addMetadata: Add-on formautofill@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: get :: line 194"  data: no] Stack trace: get()@resource://gre/modules/addons/XPIInstall.jsm:194
+loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:606
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:620
+addMetadata()@resource://gre/modules/addons/XPIDatabase.jsm:2340
+processFileChanges()@resource://gre/modules/addons/XPIDatabase.jsm:2700
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:2570
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2148
+callProvider()@resource://gre/modules/AddonManager.jsm:203
+_startProvider()@resource://gre/modules/AddonManager.jsm:652
+startup()@resource://gre/modules/AddonManager.jsm:805
+startup()@resource://gre/modules/AddonManager.jsm:2775
+observe()@jar:file:///opt/firefox/firefox/omni.ja!/components/addonManager.js:66
+1558271744395	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1558271744395	addons.xpi-utils	WARN	addMetadata: Add-on screenshots@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: get :: line 194"  data: no] Stack trace: get()@resource://gre/modules/addons/XPIInstall.jsm:194
+loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:606
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:620
+addMetadata()@resource://gre/modules/addons/XPIDatabase.jsm:2340
+processFileChanges()@resource://gre/modules/addons/XPIDatabase.jsm:2700
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:2570
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2148
+callProvider()@resource://gre/modules/AddonManager.jsm:203
+_startProvider()@resource://gre/modules/AddonManager.jsm:652
+startup()@resource://gre/modules/AddonManager.jsm:805
+startup()@resource://gre/modules/AddonManager.jsm:2775
+observe()@jar:file:///opt/firefox/firefox/omni.ja!/components/addonManager.js:66
+1558271744396	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1558271744396	addons.xpi-utils	WARN	addMetadata: Add-on webcompat-reporter@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: get :: line 194"  data: no] Stack trace: get()@resource://gre/modules/addons/XPIInstall.jsm:194
+loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:606
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:620
+addMetadata()@resource://gre/modules/addons/XPIDatabase.jsm:2340
+processFileChanges()@resource://gre/modules/addons/XPIDatabase.jsm:2700
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:2570
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2148
+callProvider()@resource://gre/modules/AddonManager.jsm:203
+_startProvider()@resource://gre/modules/AddonManager.jsm:652
+startup()@resource://gre/modules/AddonManager.jsm:805
+startup()@resource://gre/modules/AddonManager.jsm:2775
+observe()@jar:file:///opt/firefox/firefox/omni.ja!/components/addonManager.js:66
+1558271744396	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1558271744396	addons.xpi-utils	WARN	addMetadata: Add-on webcompat@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: get :: line 194"  data: no] Stack trace: get()@resource://gre/modules/addons/XPIInstall.jsm:194
+loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:606
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:620
+addMetadata()@resource://gre/modules/addons/XPIDatabase.jsm:2340
+processFileChanges()@resource://gre/modules/addons/XPIDatabase.jsm:2700
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:2570
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2148
+callProvider()@resource://gre/modules/AddonManager.jsm:203
+_startProvider()@resource://gre/modules/AddonManager.jsm:652
+startup()@resource://gre/modules/AddonManager.jsm:805
+startup()@resource://gre/modules/AddonManager.jsm:2775
+observe()@jar:file:///opt/firefox/firefox/omni.ja!/components/addonManager.js:66
+1558271744397	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1558271744984	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/formautofill@mozilla.org.xpi
+1558271744984	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/screenshots@mozilla.org.xpi
+1558271744984	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/webcompat-reporter@mozilla.org.xpi
+1558271744984	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/webcompat@mozilla.org.xpi
+JavaScript error: jar:file:///opt/firefox/firefox/browser/omni.ja!/components/nsBrowserGlue.js, line 1470: TypeError: addon is null
+1558271745110	Marionette	INFO	Listening on port 43549
+1558271745155	Marionette	WARN	TLS certificate errors will be ignored for this session
+1558271745340	Marionette	INFO	Stopped listening on port 43549
+1558272443217	mozrunner::runner	INFO	Running command: "/opt/firefox/firefox/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Sgx9zxKeB4A5"
+1558272443342	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/formautofill@mozilla.org.xpi
+1558272443343	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/screenshots@mozilla.org.xpi
+1558272443343	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/webcompat-reporter@mozilla.org.xpi
+1558272443343	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/webcompat@mozilla.org.xpi
+1558272443367	addons.xpi-utils	WARN	addMetadata: Add-on formautofill@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: get :: line 194"  data: no] Stack trace: get()@resource://gre/modules/addons/XPIInstall.jsm:194
+loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:606
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:620
+addMetadata()@resource://gre/modules/addons/XPIDatabase.jsm:2340
+processFileChanges()@resource://gre/modules/addons/XPIDatabase.jsm:2700
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:2570
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2148
+callProvider()@resource://gre/modules/AddonManager.jsm:203
+_startProvider()@resource://gre/modules/AddonManager.jsm:652
+startup()@resource://gre/modules/AddonManager.jsm:805
+startup()@resource://gre/modules/AddonManager.jsm:2775
+observe()@jar:file:///opt/firefox/firefox/omni.ja!/components/addonManager.js:66
+1558272443367	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1558272443368	addons.xpi-utils	WARN	addMetadata: Add-on screenshots@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: get :: line 194"  data: no] Stack trace: get()@resource://gre/modules/addons/XPIInstall.jsm:194
+loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:606
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:620
+addMetadata()@resource://gre/modules/addons/XPIDatabase.jsm:2340
+processFileChanges()@resource://gre/modules/addons/XPIDatabase.jsm:2700
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:2570
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2148
+callProvider()@resource://gre/modules/AddonManager.jsm:203
+_startProvider()@resource://gre/modules/AddonManager.jsm:652
+startup()@resource://gre/modules/AddonManager.jsm:805
+startup()@resource://gre/modules/AddonManager.jsm:2775
+observe()@jar:file:///opt/firefox/firefox/omni.ja!/components/addonManager.js:66
+1558272443368	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1558272443368	addons.xpi-utils	WARN	addMetadata: Add-on webcompat-reporter@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: get :: line 194"  data: no] Stack trace: get()@resource://gre/modules/addons/XPIInstall.jsm:194
+loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:606
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:620
+addMetadata()@resource://gre/modules/addons/XPIDatabase.jsm:2340
+processFileChanges()@resource://gre/modules/addons/XPIDatabase.jsm:2700
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:2570
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2148
+callProvider()@resource://gre/modules/AddonManager.jsm:203
+_startProvider()@resource://gre/modules/AddonManager.jsm:652
+startup()@resource://gre/modules/AddonManager.jsm:805
+startup()@resource://gre/modules/AddonManager.jsm:2775
+observe()@jar:file:///opt/firefox/firefox/omni.ja!/components/addonManager.js:66
+1558272443368	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1558272443369	addons.xpi-utils	WARN	addMetadata: Add-on webcompat@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: get :: line 194"  data: no] Stack trace: get()@resource://gre/modules/addons/XPIInstall.jsm:194
+loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:606
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:620
+addMetadata()@resource://gre/modules/addons/XPIDatabase.jsm:2340
+processFileChanges()@resource://gre/modules/addons/XPIDatabase.jsm:2700
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:2570
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2148
+callProvider()@resource://gre/modules/AddonManager.jsm:203
+_startProvider()@resource://gre/modules/AddonManager.jsm:652
+startup()@resource://gre/modules/AddonManager.jsm:805
+startup()@resource://gre/modules/AddonManager.jsm:2775
+observe()@jar:file:///opt/firefox/firefox/omni.ja!/components/addonManager.js:66
+1558272443369	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1558272443953	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/formautofill@mozilla.org.xpi
+1558272443954	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/screenshots@mozilla.org.xpi
+1558272443954	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/webcompat-reporter@mozilla.org.xpi
+1558272443954	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/webcompat@mozilla.org.xpi
+JavaScript error: jar:file:///opt/firefox/firefox/browser/omni.ja!/components/nsBrowserGlue.js, line 1470: TypeError: addon is null
+1558272444050	Marionette	INFO	Listening on port 43855
+1558272444123	Marionette	WARN	TLS certificate errors will be ignored for this session
+1558272447335	Marionette	INFO	Stopped listening on port 43855
+1558272483484	mozrunner::runner	INFO	Running command: "/opt/firefox/firefox/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.RZaF4J7EcRAc"
+1558272483610	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/formautofill@mozilla.org.xpi
+1558272483611	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/screenshots@mozilla.org.xpi
+1558272483611	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/webcompat-reporter@mozilla.org.xpi
+1558272483611	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/webcompat@mozilla.org.xpi
+1558272483637	addons.xpi-utils	WARN	addMetadata: Add-on formautofill@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: get :: line 194"  data: no] Stack trace: get()@resource://gre/modules/addons/XPIInstall.jsm:194
+loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:606
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:620
+addMetadata()@resource://gre/modules/addons/XPIDatabase.jsm:2340
+processFileChanges()@resource://gre/modules/addons/XPIDatabase.jsm:2700
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:2570
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2148
+callProvider()@resource://gre/modules/AddonManager.jsm:203
+_startProvider()@resource://gre/modules/AddonManager.jsm:652
+startup()@resource://gre/modules/AddonManager.jsm:805
+startup()@resource://gre/modules/AddonManager.jsm:2775
+observe()@jar:file:///opt/firefox/firefox/omni.ja!/components/addonManager.js:66
+1558272483637	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1558272483638	addons.xpi-utils	WARN	addMetadata: Add-on screenshots@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: get :: line 194"  data: no] Stack trace: get()@resource://gre/modules/addons/XPIInstall.jsm:194
+loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:606
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:620
+addMetadata()@resource://gre/modules/addons/XPIDatabase.jsm:2340
+processFileChanges()@resource://gre/modules/addons/XPIDatabase.jsm:2700
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:2570
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2148
+callProvider()@resource://gre/modules/AddonManager.jsm:203
+_startProvider()@resource://gre/modules/AddonManager.jsm:652
+startup()@resource://gre/modules/AddonManager.jsm:805
+startup()@resource://gre/modules/AddonManager.jsm:2775
+observe()@jar:file:///opt/firefox/firefox/omni.ja!/components/addonManager.js:66
+1558272483638	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1558272483638	addons.xpi-utils	WARN	addMetadata: Add-on webcompat-reporter@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: get :: line 194"  data: no] Stack trace: get()@resource://gre/modules/addons/XPIInstall.jsm:194
+loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:606
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:620
+addMetadata()@resource://gre/modules/addons/XPIDatabase.jsm:2340
+processFileChanges()@resource://gre/modules/addons/XPIDatabase.jsm:2700
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:2570
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2148
+callProvider()@resource://gre/modules/AddonManager.jsm:203
+_startProvider()@resource://gre/modules/AddonManager.jsm:652
+startup()@resource://gre/modules/AddonManager.jsm:805
+startup()@resource://gre/modules/AddonManager.jsm:2775
+observe()@jar:file:///opt/firefox/firefox/omni.ja!/components/addonManager.js:66
+1558272483638	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1558272483639	addons.xpi-utils	WARN	addMetadata: Add-on webcompat@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: get :: line 194"  data: no] Stack trace: get()@resource://gre/modules/addons/XPIInstall.jsm:194
+loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:606
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:620
+addMetadata()@resource://gre/modules/addons/XPIDatabase.jsm:2340
+processFileChanges()@resource://gre/modules/addons/XPIDatabase.jsm:2700
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:2570
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2148
+callProvider()@resource://gre/modules/AddonManager.jsm:203
+_startProvider()@resource://gre/modules/AddonManager.jsm:652
+startup()@resource://gre/modules/AddonManager.jsm:805
+startup()@resource://gre/modules/AddonManager.jsm:2775
+observe()@jar:file:///opt/firefox/firefox/omni.ja!/components/addonManager.js:66
+1558272483639	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1558272484223	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/formautofill@mozilla.org.xpi
+1558272484223	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/screenshots@mozilla.org.xpi
+1558272484223	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/webcompat-reporter@mozilla.org.xpi
+1558272484223	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/webcompat@mozilla.org.xpi
+JavaScript error: jar:file:///opt/firefox/firefox/browser/omni.ja!/components/nsBrowserGlue.js, line 1470: TypeError: addon is null
+1558272484322	Marionette	INFO	Listening on port 34167
+1558272484392	Marionette	WARN	TLS certificate errors will be ignored for this session
+1558272487613	Marionette	INFO	Stopped listening on port 34167
+1558272620829	mozrunner::runner	INFO	Running command: "/opt/firefox/firefox/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.KPQoAondi0v1"
+1558272620953	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/formautofill@mozilla.org.xpi
+1558272620954	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/screenshots@mozilla.org.xpi
+1558272620954	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/webcompat-reporter@mozilla.org.xpi
+1558272620954	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/webcompat@mozilla.org.xpi
+1558272620978	addons.xpi-utils	WARN	addMetadata: Add-on formautofill@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: get :: line 194"  data: no] Stack trace: get()@resource://gre/modules/addons/XPIInstall.jsm:194
+loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:606
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:620
+addMetadata()@resource://gre/modules/addons/XPIDatabase.jsm:2340
+processFileChanges()@resource://gre/modules/addons/XPIDatabase.jsm:2700
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:2570
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2148
+callProvider()@resource://gre/modules/AddonManager.jsm:203
+_startProvider()@resource://gre/modules/AddonManager.jsm:652
+startup()@resource://gre/modules/AddonManager.jsm:805
+startup()@resource://gre/modules/AddonManager.jsm:2775
+observe()@jar:file:///opt/firefox/firefox/omni.ja!/components/addonManager.js:66
+1558272620979	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1558272620979	addons.xpi-utils	WARN	addMetadata: Add-on screenshots@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: get :: line 194"  data: no] Stack trace: get()@resource://gre/modules/addons/XPIInstall.jsm:194
+loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:606
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:620
+addMetadata()@resource://gre/modules/addons/XPIDatabase.jsm:2340
+processFileChanges()@resource://gre/modules/addons/XPIDatabase.jsm:2700
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:2570
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2148
+callProvider()@resource://gre/modules/AddonManager.jsm:203
+_startProvider()@resource://gre/modules/AddonManager.jsm:652
+startup()@resource://gre/modules/AddonManager.jsm:805
+startup()@resource://gre/modules/AddonManager.jsm:2775
+observe()@jar:file:///opt/firefox/firefox/omni.ja!/components/addonManager.js:66
+1558272620979	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1558272620979	addons.xpi-utils	WARN	addMetadata: Add-on webcompat-reporter@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: get :: line 194"  data: no] Stack trace: get()@resource://gre/modules/addons/XPIInstall.jsm:194
+loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:606
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:620
+addMetadata()@resource://gre/modules/addons/XPIDatabase.jsm:2340
+processFileChanges()@resource://gre/modules/addons/XPIDatabase.jsm:2700
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:2570
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2148
+callProvider()@resource://gre/modules/AddonManager.jsm:203
+_startProvider()@resource://gre/modules/AddonManager.jsm:652
+startup()@resource://gre/modules/AddonManager.jsm:805
+startup()@resource://gre/modules/AddonManager.jsm:2775
+observe()@jar:file:///opt/firefox/firefox/omni.ja!/components/addonManager.js:66
+1558272620979	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1558272620980	addons.xpi-utils	WARN	addMetadata: Add-on webcompat@mozilla.org is invalid: [Exception... "Component returned failure code: 0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST) [nsIFile.isFile]"  nsresult: "0x80520006 (NS_ERROR_FILE_TARGET_DOES_NOT_EXIST)"  location: "JS frame :: resource://gre/modules/addons/XPIInstall.jsm :: get :: line 194"  data: no] Stack trace: get()@resource://gre/modules/addons/XPIInstall.jsm:194
+loadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:606
+syncLoadManifestFromFile()@resource://gre/modules/addons/XPIInstall.jsm:620
+addMetadata()@resource://gre/modules/addons/XPIDatabase.jsm:2340
+processFileChanges()@resource://gre/modules/addons/XPIDatabase.jsm:2700
+checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:2570
+startup()@resource://gre/modules/addons/XPIProvider.jsm:2148
+callProvider()@resource://gre/modules/AddonManager.jsm:203
+_startProvider()@resource://gre/modules/AddonManager.jsm:652
+startup()@resource://gre/modules/AddonManager.jsm:805
+startup()@resource://gre/modules/AddonManager.jsm:2775
+observe()@jar:file:///opt/firefox/firefox/omni.ja!/components/addonManager.js:66
+1558272620980	addons.xpi-utils	WARN	Could not uninstall invalid item from locked install location
+1558272621573	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/formautofill@mozilla.org.xpi
+1558272621573	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/screenshots@mozilla.org.xpi
+1558272621573	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/webcompat-reporter@mozilla.org.xpi
+1558272621573	addons.xpi	WARN	Can't get modified time of /opt/firefox/firefox/browser/features/webcompat@mozilla.org.xpi
+JavaScript error: jar:file:///opt/firefox/firefox/browser/omni.ja!/components/nsBrowserGlue.js, line 1470: TypeError: addon is null
+1558272621696	Marionette	INFO	Listening on port 38001
+1558272621741	Marionette	WARN	TLS certificate errors will be ignored for this session
+1558272624972	Marionette	INFO	Stopped listening on port 38001
