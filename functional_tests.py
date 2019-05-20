@@ -37,7 +37,7 @@ class NewVisitorsTest(unittest.TestCase):
 			inputbox.get_attribute('placeholder'),
 			'Wpisz rzeczy do zrobienia'
 		)
-		inputbox.send_keys('1: Kupic pawie piora')
+		inputbox.send_keys('Kupic pawie piora')
 		inputbox.send_keys(Keys.ENTER)
 		time.sleep(10)
 		self.check_for_row_in_list_table('1: Kupic pawie piora')
