@@ -3,10 +3,11 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.firefox.firefox_binary import FirefoxBinary
+from django.test import LiveServerTestCase
 import unittest
 import time
 
-class NewVisitorsTest(unittest.TestCase):
+class NewVisitorsTest(LiveServerTestCase):
 	
 	def setUp(self):
 		self.binary = FirefoxBinary('/opt/firefox/firefox/firefox')
@@ -22,7 +23,7 @@ class NewVisitorsTest(unittest.TestCase):
                 self.assertIn(row_text, [row.text for row in rows])
 
 	def test_cat_start_a_list_and_retrive_it_later(self):
-		self.browser.get('http://localhost:8000')
+		self.browser.get(self.live_server_url)
 		
 		# Test uruchomionego default django
 		#assert 'Django' in browser.title
@@ -52,5 +53,3 @@ class NewVisitorsTest(unittest.TestCase):
 
 		self.fail('Zakonczenie testu!')
 
-if __name__ == '__main__':
-	unittest.main(warnings='ignore')
