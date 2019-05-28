@@ -4,6 +4,7 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.firefox.firefox_binary import FirefoxBinary
 from django.test import LiveServerTestCase
+import unittest
 import time
 
 class NewVisitorsTest(LiveServerTestCase):
@@ -39,10 +40,9 @@ class NewVisitorsTest(LiveServerTestCase):
 		)
 		inputbox.send_keys('Kupic pawie piora')
 		inputbox.send_keys(Keys.ENTER)
-        self.assertRegex(edith_list_url, '/lists/.+')
-        time.sleep(10)
-        self.check_for_row_in_list_table('1: Kupic pawie piora')
-
+		time.sleep(10)
+		self.check_for_row_in_list_table('1: Kupic pawie piora')
+		
 		inputbox = self.browser.find_element_by_id('id_new_item')
 		inputbox.send_keys('Uzyc pawich pior do zrobienia przynety')
 		inputbox.send_keys(Keys.ENTER)
@@ -50,27 +50,6 @@ class NewVisitorsTest(LiveServerTestCase):
 		
 		self.check_for_row_in_list_table('1: Kupic pawie piora')
 		self.check_for_row_in_list_table('2: Uzyc pawich pior do zrobienia przynety')
-        
-        self.browser.quit()
-        self.browser.webdriver.Firefox()
-        
-        self.browser.get(self.live_server_url)
-        page_text = self.browser.find_element_by_tag_name('body').text
-        self.assertNotIn('Kupic pawie piora',  page_text)
-        self.assertNotIn('zrobienia przynety',  page_text)
-        
-        inputbox = self.browser.find_element_by_id('id_new_item')
-        inputbox = send_keys('Kupic mleko')
-        inputbox = send_keys('Keys.ENTER')
-        
-        francis_list_url = self.browser.current_url
-        self.assertRegex(francis_list_url,  '/lists/.+')
-        self.assertNotEqual(francis_list_url,  edith_list_url)
-        
-        page_text = self.browser.find_element_by_tag_name('body').text
-        self.assertNotIn('Kupic pawie piora',  page_text)
-        self.assertIn('Kupic mleko',  page_text)
-        
-        
+
 		self.fail('Zakonczenie testu!')
 
